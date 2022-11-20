@@ -16,17 +16,29 @@
 <body class="page__body">
     <div class="site-container ">
         <header class="header">
-    <div class="header__container container">
-        <ul class="header__list list-reset">
-            <li class="header__item"><a href="#" class="header__link">About</a></li>
-            <li class="header__item"><a href="#" class="header__link">Skills</a></li>
-            <li class="header__item"><a href="#" class="header__link">Portfolio</a></li>
-            <li class="header__item"><a href="#" class="header__link">Contact</a></li>
-        </ul>
-    </div>
+  <div class="header__container container">
+    <ul class="header__list list-reset">
+      <li class="header__item">
+        <a href="#hero" class="header__link">Main</a>
+      </li>
+      <li class="header__item">
+        <a href="#about" class="header__link">About</a>
+      </li>
+      <li class="header__item">
+        <a href="#skills" class="header__link">Skills</a>
+      </li>
+      <li class="header__item">
+        <a href="#portfolio" class="header__link">Portfolio</a>
+      </li>
+      <li class="header__item">
+        <a href="#contact" class="header__link">Contact</a>
+      </li>
+    </ul>
+  </div>
 </header>
+
         <main class="main">
-            <section class="hero">
+            <section class="hero" id="hero">
   <div class="hero__bg">
     <picture>
       <source srcset="img/hero2.webp" type="image/webp" />
@@ -51,9 +63,9 @@
       <div class="hero__content">
         <h1 class="hero__title">Evgenii Kalukov</h1>
         <p class="hero__descr">Front end Developer</p>
-        <button class="hero__button btn btn-reset">
+        <a href="#portfolio" class="hero__button btn">
           <span>Посмотреть работы</span>
-        </button>
+        </a>
       </div>
       <ul class="hero__sci sci list-reset">
         <li>
@@ -163,7 +175,7 @@
   </div>
 </section>
 
-            <section class="about">
+            <section class="about" id="about">
   <div class="about__container container">
     <h2 class="about__title title">About</h2>
     <ul class="about__list list-reset">
@@ -228,7 +240,7 @@
   </div>
 </section>
 
-            <section class="skills">
+            <section class="skills" id="skills">
   <div class="skills__container container">
     <h2 class="skills__title title">Skills</h2>
     <ul class="skills__list skills__list-main list-reset">
@@ -765,7 +777,7 @@
   </div>
 </section>
 
-            <section class="portfolio">
+            <section class="portfolio" id="portfolio">
   <div class="portfolio__container container">
     <h2 class="portfolio__title title">Portfolio</h2>
     <div class="portfolio__content">
@@ -1384,14 +1396,14 @@
   </div>
 </section>
 
-            <section class="contact">
+            <section class="contact" id="contact">
   <div class="contact__container container">
     <h2 class="contact__title title">Contact</h2>
     <p class="contact__descr">Есть вопросы или хотите работать вместе?</p>
     <div class="contact__box">
       <ul class="contact__sci list-reset">
         <li class="contact__item">
-          <p class="contact__point">Напиши мне письмо:</p>
+          <p class="contact__point">Напишите мне письмо:</p>
           <a
             href="mailto:makona79@yandex.ru"
             target="_blank"
@@ -1421,7 +1433,7 @@
           </a>
         </li>
         <li class="contact__item">
-          <p class="contact__point">Напиши мне в Telegram:</p>
+          <p class="contact__point">Напишите мне в Telegram:</p>
           <a
             href="https://t.me/evgeni_kalukov"
             target="_blank"
@@ -1448,7 +1460,7 @@
           </a>
         </li>
         <li class="contact__item">
-          <p class="contact__point">Напиши мне в WhatsApp:</p>
+          <p class="contact__point">Напишите мне в WhatsApp:</p>
           <a href="tel:+79277820354" target="_blank" class="contact__link">
             <svg
               width="45"
@@ -1464,7 +1476,7 @@
           </a>
         </li>
         <li class="contact__item">
-          <p class="contact__point">Мои работы в Github:</p>
+          <p class="contact__point">Посмотрите мои работы в Github:</p>
           <a
             href="https://github.com/Makona79"
             target="_blank"
