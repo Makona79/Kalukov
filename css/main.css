@@ -406,8 +406,10 @@ a {
 .header__link {
   color: #fff;
 }
-.header__link:hover {
-  text-decoration: underline;
+@media (min-width: 1025px) {
+  .header__link:hover {
+    text-decoration: underline;
+  }
 }
 @media (max-width: 768px) {
   .header__link {
@@ -415,6 +417,9 @@ a {
     font-size: 30px;
     line-height: 160%;
   }
+}
+.header__link.active {
+  color: #faaf52;
 }
 
 @media (max-width: 768px) {
