@@ -1,5 +1,7 @@
 .contact {
   background-color: #252934;
+  height: 100vh;
+  border: 1px solid #000;
 }
 .contact__container {
   display: -webkit-box;
@@ -16,6 +18,7 @@
   -ms-flex-align: center;
   align-items: center;
   padding: 70px 0;
+  height: 100%;
 }
 .contact__title {
   margin: 0 0 90px 0;

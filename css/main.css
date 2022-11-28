@@ -418,7 +418,7 @@ a {
     line-height: 160%;
   }
 }
-.header__link.active {
+.header__link._active {
   color: #faaf52;
 }
 
@@ -1242,6 +1242,8 @@ a {
 
 .contact {
   background-color: #252934;
+  height: 100vh;
+  border: 1px solid #000;
 }
 .contact__container {
   display: -webkit-box;
@@ -1258,6 +1260,7 @@ a {
   -ms-flex-align: center;
   align-items: center;
   padding: 70px 0;
+  height: 100%;
 }
 .contact__title {
   margin: 0 0 90px 0;
